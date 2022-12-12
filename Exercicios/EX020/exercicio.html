@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercicio</title>
+    <style>
+        body{
+            background-color: gainsboro;
+        }
+        div > p{
+            display: none;
+        }
+        div{
+            color: white;
+            display: inline-block;
+            background-color: gray;
+            margin: 5px;
+            padding: 5px;
+        }
+        .mouse:hover > #mouse{
+            display: block;
+        }
+        .click:active > #click{
+            display: block;
+            color: red;
+        }
+    </style>
+</head>
+<body>
+    <h1>Mexendo com Active e Hover</h1>
+    <div class="click">
+        Clique sobre este trecho
+        <p id="click"> Surpresa ! </p>
+    </div>
+    <div class="mouse">
+        Passe o mouse sobre este trecho
+        <p id="mouse"> Surpresa !</p>
+    </div>
+</body>
+</html>
