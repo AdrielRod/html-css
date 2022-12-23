@@ -30,7 +30,6 @@ span#burguer:hover{
 }
 nav{
     display: none;
-    transition:ease-in;
 }
 nav > ul {
     list-style-type: none;

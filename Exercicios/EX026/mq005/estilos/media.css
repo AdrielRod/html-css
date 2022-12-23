@@ -1,0 +1,27 @@
+@charset "UTF-8";
+
+@media print { /*IMPRESSÃO*/
+    *{
+        font-family: 'Courier New', Courier, monospace;
+        text-shadow: none;
+        color: black;
+    }
+}
+
+@media screen and (min-width: 769px) { /*TABLETS*/ 
+
+    span#burguer{
+        display: none;
+    }
+    nav{
+        display: block;
+    }
+    nav > ul > li {
+    display: inline-block;
+    
+    }
+    main{
+        width: 768px;
+        
+    }
+}
